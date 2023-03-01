@@ -1,0 +1,47 @@
+.container {
+    
+    width: 200px;
+    height: 200px;
+    background-color:darksalmon;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-left: 100px;
+    transition: background-color 1s linear ;
+}
+
+.container .old {
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: opacity 1s linear ;
+    transition: transform 1s linear ;
+}
+
+.container .new {
+    opacity: 0; 
+    margin-bottom: ;
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: opacity 1s linear 0.2s;
+}
+
+
+
+
+.container:hover{
+    background-color:darkslategrey;
+}
+
+.container .old:hover{
+     opacity: 0;
+}
+
+.container .new:hover{
+     opacity: 1;
+}
